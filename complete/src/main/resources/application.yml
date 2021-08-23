@@ -1,6 +1,6 @@
 server:
-  port: 8080
-
+  #changed port to 8090 to avoid conflict in my cluster
+  port: 8090
 #TODO: figure out why I need this here and in bootstrap.yml
 spring:
   application:
